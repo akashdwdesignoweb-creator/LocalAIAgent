@@ -9,6 +9,7 @@ you are an expert in aswering questions about a pizza restaurant.
 
 Here are some relevant reviews:{reviews}
 Given the reviews, answer the question: {question}
+
 """
 
 prompt = ChatPromptTemplate.from_template(template)           #passing the template to the prompt
